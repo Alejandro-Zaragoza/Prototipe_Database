@@ -1,0 +1,315 @@
+/*ESTILOS PARA ESTRUCTURA BÁSICA*/
+/**************************************************/
+
+body{
+    background-color: black;
+    background-image: url("imagenes/Space.png");
+    height:100%;
+    width: 100%;
+}
+
+.agrega{
+    border-radius: 10px solid;
+    background-color:blueviolet;
+    float: left;
+    margin-top: 50px;
+    width: 320px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.producto{
+    float: left;
+    margin-top: 20px;
+    width: 320px;
+    height: 30px;
+}
+
+.eliminar{
+    border-radius: 1px solid;
+    border-color: transparent;
+    background-color:blueviolet;
+    float:left;
+    font-size: 20px;
+    color: white;
+    font-family: 'Silkscreen', cursive;
+    text-decoration: none;
+    width: 200px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.muestra{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-family: 'Silkscreen', cursive;
+    display: inline-block;
+    width: 860px;
+}
+
+.error{
+    color: rgb(195, 0, 0);
+    font-family: 'Silkscreen', cursive;
+    display:inline-block;
+}
+
+/**************************************************/
+/*ESTILOS PARA TÍTULOS*/
+.neon{
+    font-family: 'Silkscreen', cursive;
+    color: rgb(48, 180, 85);
+    text-shadow: 
+    0 0 5px rgb(48, 180, 85),
+    0 0 25px rgb(48, 180, 85),
+    0 0 50px rgb(48, 180, 85),
+    0 0 100px rgb(48, 180, 85);
+}
+
+/**************************************************/
+/*ESTILOS PARA BOTON DE REGRESO*/
+.regresa{
+    float: left;
+    margin-top: 110px;
+    margin-left: 200px;
+}
+.regresa:hover{
+    text-shadow: 
+    0 0 5px blueviolet,
+    0 0 25px blueviolet,
+    0 0 50px blueviolet,
+    0 0 100px blueviolet;
+}
+
+/**************************************************/
+/*ESTILOS PARA ALTA DE USUARIO*/
+.alta{
+    font-size: 20px;
+    color: white;
+    font-family: 'Silkscreen', cursive;
+    text-decoration: none;
+}
+
+.alta_1{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-family: 'Silkscreen', cursive;
+    text-decoration: none;
+}
+
+.alinear{
+margin-left: 40px;
+}
+
+/**************************************************/
+/*ESTILOS PARA DETALLES*/
+.detalle{
+    border-radius: 1px solid;
+    background-color:blueviolet;
+    border-color: white;
+    float:left;
+    margin-left: 10px;
+    width: 200px;
+    height: 30px;
+    cursor: pointer;
+}
+.compra{
+    border-radius: 3px solid;
+    background-color:blueviolet;
+    border-color: rgb(0, 0, 0);
+    float:left;
+    margin-left: 100px;
+    width: 200px;
+    height: 30px;
+    cursor: pointer;
+}
+.compra_1{
+    border-radius: 3px solid;
+    background-color:rgb(48, 180, 85);
+    border-color: rgb(0, 0, 0);
+    float:left;
+    margin-left: 100px;
+    width: 200px;
+    height: 30px;
+    cursor: pointer;
+}
+.texto_detalles{
+    text-align: left;
+    margin-left: 50px;
+    float: left;
+}
+
+/**************************************************/
+/*ESTILOS PARA IMAGENES*/
+.imagen_detalles{
+    float: left;    
+    border: 5px solid;
+    border-color: black;
+    margin-left: 40px;
+}
+
+#personaje{
+    width: 170px;
+    height: 150px;
+    float: left;
+}
+
+.personaje{margin-left: 110px;}
+
+.personaje_1{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.personaje_2{margin-left: 170px;}
+
+.personaje_3{margin-left: 10px;}
+
+.personaje_4{
+    width: 250px;
+    height: 250px;
+}
+
+.personaje_5{margin-left: 250px ;}
+
+.personaje_login{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    margin-left: 600px;
+}
+.personaje_login_1{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    margin-left: 30px;
+    transform: scaleX(-1);
+}
+.producto_imagen{
+    width: 150px;
+    height: 150px;
+}
+.dashboard_imagen{
+    width: 80px;
+    height: 80px;
+}
+.banner_imagen{
+    width: 250px;
+    height: 150px;
+}
+.producto_m{   
+    border: 5px solid;
+    border-color: black;
+    width: 600px;
+    height: 270px;
+    margin: 0 auto;
+}
+/**************************************************/
+/*ESTILOS BOTONERA*/
+.botonera{margin-left: 110px;}
+
+.botonera_1{
+margin-left: 80px;
+margin-top: -45px;}
+
+.btn{
+position: relative;
+display: inline-block;
+padding: 15px 30px;
+color: rgb(0, 0, 0);
+font-size: 20px;
+transition: 0.2s;
+cursor: pointer;
+}
+
+.btn:hover{
+    background: #00b400;
+    box-shadow: 0 0 10px #00b400, 0 0 30px
+    #00b400, 0 0 30px #00b400;
+    transition-delay: 0.2s;
+}
+
+/**************************************************/
+/*ESTILOS MENÚ INICIO*/
+.menu{
+    width: 850px;
+    margin: 0 auto;
+    background-color: white;
+    border: 3px solid;
+    border-color: blueviolet;
+}
+
+.dashboard{
+    width: 1000px;
+    margin: 0 auto;
+    background-color: white;
+    border: 3px solid;
+    border-color: blueviolet;
+}
+.seccion{
+    font-family: 'Silkscreen', cursive;
+    border: 3px solid;
+    border-color: blueviolet;
+    border-left: 50px;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    text-shadow: 
+    0 0 20px rgb(255, 255, 255),
+    0 0 20px rgb(255, 255, 255),
+    0 0 20px rgb(255, 255, 255),
+    0 0 20px rgb(255, 255, 255);
+}
+
+.seccion:hover{
+    background-color: rgb(0, 0, 0);
+    box-shadow: 
+    0 0 5px blueviolet,
+    0 0 15px blueviolet,
+    0 0 20px blueviolet,
+    0 0 20px blueviolet;
+}
+/**************************************************/
+/*ESTILOS BANNERS*/
+.presenta_banner{
+    margin: 0 auto;
+}
+.banner{
+    width: 800px;
+    height: 500px;
+}
+/**************************************************/
+/*ESTILOS PIE DE PÁGINA*/
+footer {
+    bottom: 0;
+    position:inherit;
+    height: 150px;
+    width: 100%;
+    margin-left: -10px;
+    margin-top: 10px;
+    background: #ffffff;
+    color: rgb(78, 78, 78);
+    
+}
+.pie{
+    float: left;
+    padding-left: 150px;
+    text-align: left;
+}
+/**************************************************/
+/*ESTILOS PARA CARRITO DE COMPRAS*/
+.carrito{
+    float: left;
+    padding-right: 100px;
+    margin-left: 50px;
+}
+.carrito_muestra{
+    float: left;
+    padding-right: 140px;
+    margin-left: 100px;
+}
+.total{
+    float: left;
+    margin-left: 50px;
+}
